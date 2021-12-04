@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 const HeaderWrapper = styled.div`
   display: flex;
@@ -18,7 +19,8 @@ const Logo = styled.h2`
 const Navlinks = styled.ul`
   list-styled: none;
 
-  & > li {
+  & > LInk,
+  li {
     display: inline-block;
     padding: 0px 20px;
     cursor: pointer;
@@ -44,9 +46,12 @@ const Header = () => {
       <Logo> What's for dinner </Logo>
       <nav>
         <Navlinks>
-          <li>Home</li>
-
-          <li>Recepie</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/Recepie">
+            <li>Recepie</li>
+          </Link>
 
           <li>Shop</li>
         </Navlinks>
