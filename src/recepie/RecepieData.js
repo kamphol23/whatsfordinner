@@ -2,6 +2,8 @@ export default [
   {
     id: 1,
     name: "Pasta carbonara ",
+    info:
+      "Pasta carbonara eller spaghetti carbonara – älskad favorit med grädde och rökt fläsk eller bacon. Passar lika bra till släktmiddagen som till fredagsmyset. Enkelt och recept på en riktig klassiker. Klar på en kvart! Servera pasta carbonara med en äggula.",
     doLikeThis: [
       "Koka spaghettin.",
 
@@ -27,6 +29,8 @@ export default [
   {
     id: 2,
     name: "Korv stroganoff ",
+    info:
+      "Enkel och snabb korvgryta då middagen måste bli klar fort. En variant av korvstroganoff som passar såväl liten som stor.",
     doLikeThis: [
       "Koka spaghettin.",
 
@@ -47,6 +51,6 @@ export default [
       "Äggulor",
     ],
     image:
-      "https://cdn-rdb.arla.com/Files/arla-se/2144233194/fdbea70f-3b1b-48c7-b223-aba85b6fe754.jpg?mode=crop&w=750&h=530&ak=f525e733&hm=14145ada 2x",
+      "https://img.koket.se/standard-mega/klassisk-kramig-stroganoff-rana-ny.jpg",
   },
 ];

@@ -11,6 +11,7 @@ const FooterWrapper = styled.div`
   width: 100%;
   bottom: 0;
   text-align: center;
+  z-index: -1;
   & > div {
     padding: 0px 20px;
     margin: auto;
